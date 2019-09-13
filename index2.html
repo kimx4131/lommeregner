@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator - Gheorghe Marin Adrian</title>
+    </head>
+    <body>
+      <!--
+        <div id='calc-contain'>
+          <form name="calculator">
+            <input type="text" name="answer" />
+            <br>
+            
+            <input type="button" id="et" value=" 1 " onclick="calculator.answer.value += '1'" />
+            <input type="button" id="to" value=" 2 " onclick="calculator.answer.value += '2'" />
+            <input type="button" id="tree" value=" 3 " onclick="calculator.answer.value += '3'" />
+            <input type="button" id="plus" value=" + " onclick="calculator.answer.value += '+'" />
+            <br/>
+            
+            <input type="button" id="fire" value=" 4 " onclick="calculator.answer.value += '4'" />
+            <input type="button" id="fem" value=" 5 " onclick="calculator.answer.value += '5'" />
+            <input type="button" id="seks" value=" 6 " onclick="calculator.answer.value += '6'" />
+            <input type="button" id="minus" value=" - " onclick="calculator.answer.value += '-'" />
+            </br>
+          
+            <input type="button" id="syv" value=" 7 " onclick="calculator.answer.value += '7'" />
+            <input type="button" id="otte" value=" 8 " onclick="calculator.answer.value += '8'" />
+            <input type="button" id="ni" value=" 9 " onclick="calculator.answer.value += '9'" />
+            <input type="button" id="gange" value=" x " onclick="calculator.answer.value += '*'" />
+            </br>
+        
+            <input type="button" id="ryd" value=" c " onclick="calculator.answer.value = ''" />
+            <input type="button" id="nul" value=" 0 " onclick="calculator.answer.value += '0'" />
+            <input type="button" id="ligmed" value=" = " onclick="calculator.answer.value = eval(calculator.answer.value)" />
+            <input type="button" id="divider" value=" / " onclick="calculator.answer.value += '/'" />
+            </br>
+          </form>
+        </div>-->
+
+
+        <div id='calc-contain'>
+            <form name="calculator">
+              <input type="text" name="answer" id="answer"/>
+              <br>
+              
+              <input type="button" id="et" value="1"/>
+              <input type="button" id="to" value="2" />
+              <input type="button" id="tree" value="3" />
+              <input type="button" id="plus" value="+" />
+              <br/>
+              
+              <input type="button" id="fire" value="4" />
+              <input type="button" id="fem" value="5" />
+              <input type="button" id="seks" value="6" />
+              <input type="button" id="minus" value="-" />
+              </br>
+            
+              <input type="button" id="syv" value="7" />
+              <input type="button" id="otte" value="8" />
+              <input type="button" id="ni" value="9" />
+              <input type="button" id="gange" value="x" />
+              </br>
+          
+              <input type="button" id="ryd" value="c"/>
+              <input type="button" id="nul" value="0" />
+              <input type="button" id="ligmed" value="=" />
+              <input type="button" id="divider" value="/" />
+              </br>
+            </form>
+          </div>
+
+
+        <script>
+          let answer = document.querySelector("#answer");
+
+        answer = document.querySelector("#et").value += '1';
+        answer = document.querySelector("#to").value += '2';
+        answer = document.querySelector("#tree").value += '3';
+
+        answer = document.querySelector("#fire").value += '4';
+        answer = document.querySelector("#fem").value += '5';
+        answer = document.querySelector("#seks").value += '6';
+
+        answer = document.querySelector("#syv").value += '7';
+        answer = document.querySelector("#otte").value += '8';
+        answer = document.querySelector("#ni").value += '9';
+
+        answer = document.querySelector("#nul").value += '0';
+
+
+        answer = document.querySelector("#plus").value += '+';
+        answer = document.querySelector("#minus").value += '-';
+        answer = document.querySelector("#gange").value += '*';
+        answer = document.querySelector("#divider").value += '/';
+
+        answer = document.querySelector("#ryd").value += '';
+        answer = document.querySelector("#ligmed").value = eval(calculator.answer.value);
+
+        /* 
+        document.querySelector("#et").calculator.answer.value += '1';
+        document.querySelector("#to").calculator.answer.value += '2';
+        document.querySelector("#tree").calculator.answer.value += '3';
+
+        document.querySelector("#fire").calculator.answer.value += '4';
+        document.querySelector("#fem").calculator.answer.value += '5';
+        document.querySelector("#seks").calculator.answer.value += '6';
+
+        document.querySelector("#syv").calculator.answer.value += '7';
+        document.querySelector("#otte").calculator.answer.value += '8';
+        document.querySelector("#ni").calculator.answer.value += '9';
+
+        document.querySelector("#nul").calculator.answer.value += '0';
+
+
+        document.querySelector("#plus").calculator.answer.value += '+';
+        document.querySelector("#minus").calculator.answer.value += '-';
+        document.querySelector("#gange").calculator.answer.value += '*';
+        document.querySelector("#divider").calculator.answer.value += '/';
+
+        document.querySelector("#ryd").calculator.answer.value += '';
+        document.querySelector("#ligmed").calculator.answer.value = eval(calculator.answer.value);
+        */
+
+        
+        </script>
+    </body>
+</html>
+</body>
+</html>
